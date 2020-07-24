@@ -1,1 +1,1 @@
-# 10days_python
+read me file for python 10 days
