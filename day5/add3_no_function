@@ -1,0 +1,10 @@
+#Program to find out largest numbers amongs 3 numbers
+
+
+def addition(a,b,c):
+	max_no=max(a,b,c)
+	print(max_no)
+num1=int(input("first number"))	
+num2=int(input("second number"))	
+num3=int(input("third number"))	
+addition(num1,num2,num3)
