@@ -1,0 +1,18 @@
+#information about re module 
+#this function let you check of any particular string matches given regular expression or not
+#re.search() methos take regular expression pattern & string and searches for that pattern whithin the string
+#if search is sucessful , search()  return a match pattern 
+#Basic pattern for re
+##\w: matches word character in lowercase . it can be letter digit or underbar[a-z0-9]. but it only matches 
+###only single word
+##\W: for uppeecase
+##\b: boundary between word and nonword
+##\s: matches single whitespace character-space, newline,return,tabform[\n\r\t]
+##\S: matches any non-whitespace character
+##\t,\r,\n: tab. newline,return
+##\d: for decimal digit
+##^=start , $=end : matches start and end of string
+
+
+#Repetition: + and * used to specify repeatition in pattern
+## +--1 

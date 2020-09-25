@@ -1,0 +1,10 @@
+#print 3d array in python
+rows = int(input("Enter the no of rows"))
+cols = int(input("Enter the no of cols"))
+#mylist = 
+for i in range(cols):
+	for i in range(rows):
+		array=x[i]
+print (array)
+#array = [[[ 'x' for col in range(5)] for col in  range(4)] for row in range(3)]
+#print(array)

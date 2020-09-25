@@ -46,3 +46,7 @@ list2=["mango","chickoo"]
 list3=list1+list2
 print(list3)
 
+#list compresssion
+
+S=[x**2 for x in range(10)]
+print(S)
