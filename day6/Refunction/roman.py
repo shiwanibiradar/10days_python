@@ -8,4 +8,6 @@ ten='(X[LC]|L?X{0,3})'
 digit='(I[VX]|V?X{0,3})'
 num=re.match(thousand+hundred+ten+digit+'$',input())
 if num:
-	print("True")
+	print("Valid Roman Number")
+else:
+	print("Not Valid Roman Number")

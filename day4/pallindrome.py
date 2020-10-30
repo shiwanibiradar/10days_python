@@ -1,10 +1,10 @@
 #check whether given no is pallindrome or not
 
 
-num=int(input())
+num=(input())
 rev=0
 temp=num
-while num > 1:
+while num:
 	dig=num%10
 	rev=rev*10+dig
 	num=num//10
